@@ -1,0 +1,16 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Listen for rdebug-ide",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "remoteHost": "127.0.0.1",
+            "remotePort": "1234",
+            "program": "${workspaceRoot}/hello.rb",
+            "remoteWorkspaceRoot": "${workspaceRoot}"
+		 }
+	]
+}
+
