@@ -19,3 +19,16 @@ locations.insert(5, "Banania")
 p locations
 locations.insert(0, "Lorenzo", "Colombia", "EUA")
 p locations
+
+# pop method
+p locations.length
+locations.pop
+p locations.length
+# the method return the removed element
+p locations
+removed = locations.pop
+p removed
+p locations
+# it can remove more than one,from the very end
+removed = locations.pop(3)
+p removed
