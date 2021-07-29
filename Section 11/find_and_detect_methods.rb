@@ -1,5 +1,4 @@
-# it returns the position of the FIRST element
-# that meets the conditions
+# it returns the position of the FIRST element that meets the conditions
 words = ["freezer", "kitchen", "room", "mouse", "irrigation"]
 result = words.find do |word|
     word.length > 5
